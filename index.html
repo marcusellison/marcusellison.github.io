@@ -1,880 +1,162 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marcus Ellison</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>VentureMark</title>
+  <link rel="stylesheet" href="/vendors/bulma/css/bulma.css">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <main class="wrapper">
+    <div class="hero-image">
+      <!-- Navigation -->
+      <nav class="navbar is-white" role="navigation" aria-label="main navigation">
 
-    <!-- main css file -->
-    <link rel="stylesheet" href="css/style.css" />
+        <div class="container">
 
+          <div class="navbar-brand">
+            <a href="" class="navbar-item navigation-title">
+              <h1 class="logo">VentureMark</h1>
+              <span class="slogan">A global platform for independent investors</span>
+            </a>
 
-    <!-- color styles - uncomment your preferred -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/skins/turquoise.css" name="colors" /> -->
+            <!-- Mobile Navigation -->
+            <div class="navbar-burger">
+              <span>About</span>
+              <span>Our Startups</span>
+              <span>Our Investors</span>
+              <span>Login</span>
+              <span>Join Waitlist</span>
+            </div>
+            <!-- End Mobile Navigation -->
 
-    <link rel="stylesheet" type="text/css" href="css/skins/orange.css" name="colors" />
-    <!--  <link rel="stylesheet" type="text/css" href="css/skins/yellow.css" name="colors" />
-    <link rel="stylesheet" type="text/css" href="css/skins/green.css" name="colors" />
-    <link rel="stylesheet" type="text/css" href="css/skins/blue.css" name="colors" />
-    <link rel="stylesheet" type="text/css" href="css/skins/brown.css" name="colors" />
-    <link rel="stylesheet" type="text/css" href="css/skins/violet.css" name="colors" />
-    <link rel="stylesheet" type="text/css" href="css/skins/purple.css" name="colors" />
-    <link rel="stylesheet" type="text/css" href="css/skins/grey.css" name="colors" />
-    <link rel="stylesheet" type="text/css" href="css/skins/red.css" name="colors" />
-    -->
+          </div>
 
-    <!-- Style Switcher Box delete for remove styleswitcher-->
-    <link rel="stylesheet" href="css/styleswitcher.css">
-
-    <!-- google fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
-
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
-  <body>
-
-      <!-- start styleswitcher, remove this -->
-      <!-- <div class="switcher"></div> -->
-      <!-- end styleswitcher -->
-
-      <!-- Preloader -->
-      <div class="mask">
-        <div id="loader"></div>
-      </div>
-      <!--/Preloader -->
-
-      <div class="menu-btn-left">
-        <img alt="" src="img/nav.svg">
-      </div>
-
-      <!-- start navigation -->
-      <nav class="pushy pushy-left">
-
-        <!-- <div class="logo-small">
-          <a class="inner-link" href="#home"><img class="logo nav-logo"  alt="Kurr" src="img/logo.png" ></a><br>
-        </div> -->
-
-        <!-- start menu -->
-        <ul class="menu">
-          <li><a class="inner-link" href="#about">About</a></li>
-          <li><a class="inner-link" href="#education">Education</a></li>
-          <li><a class="inner-link" href="#skills">Skills</a></li>
-          <li><a class="inner-link" href="#portfolio">Portfolio</a></li>
-          <li><a class="inner-link" href="#experience">Experience</a></li>
-          <li><a class="inner-link" href="#contact">Contact</a></li>
-        </ul>
-        <!-- end menu -->
-
-        <!--start bottom menu content -->
-        <div class="bottom-content">
-          <ul class="contact-details">
-            <li><span>Marcus Ellison</span></li>
-            <li><a href="mailto:marcus.ellison@gmail.com">marcus.ellison@gmail.com</a></li>
-            <li><span>(917) 972 3943</span></li>
-          </ul>
+          <div class="navbar-menu">
+            <div class="navbar-end">
+              <a href="" class="navbar-item link-current">About</a>
+              <a href="" class="navbar-item">Our Startups</a>
+              <a href="" class="navbar-item">Our Investors</a>
+              <a href="" class="navbar-item">
+                <figure class="image is-16x16 lock-icon">
+                  <img src="./img/lock-icon.svg" alt="" class="profile-icon-medium">
+                </figure>
+                Login
+              </a>
+              <div class="navbar-item">
+                <a href="signup.html" class="button">Join Waitlist</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- end bottom menu content -->
-
       </nav>
-      <!-- end navigation -->
+      <!-- End Navigation -->
 
-    <div class="site-overlay"></div>
 
-    <!-- start section #home -->
-    <section id="home">
-      <div class="bg_overlay"></div>
-        <div class="row">
-          <div class="medium-8 medium-text-center medium-centered small-8 small-text-centered small-centered columns">
-            <!-- <img class="logo" src="img/logo.png" alt="" /><br /> -->
-            <h3 style="color:#f5f5f5;font-size: 51px;" class="green text-center">Marcus Ellison</h3>
-            <p class="white text-center">Freelance Web Developer & Entrepreneur</p>
-          </div>
-      </div>
-
-      <!-- mouse wheel on slider revolution (custom) -->
-      <div class="intro-scroller">
-        <a class="inner-link" href="#about" >
-          <div class="mouse-icon white" style="opacity: 1;">
-            <div class="wheel"></div>
-          </div>
-        </a>
-      </div>
-      <!-- end mouse wheel on slider revolution (custom) -->
-
-    </section>
-    <!-- end section #home -->
-
-   <div id="wrapper">
-
-    <!-- start section #about -->
-    <section id="about">
-
-      <div class="row bot-70">
-
-        <div class="medium-5 columns">
-          <h2 class="white">About <strong>ME</strong></h2>
-          <p>"What we play is life." - Louis Armstrong</p>
-        </div>
-        <div class="medium-1 columns">
-          <i class="icon kurr-speech-streamline-talk-user big"></i>
-        </div>
-        <div class="medium-6 columns">
-          <p>Living and working in San Francisco.</span><br></p>
-          <!-- <span>Building meaning in pursuit of mastery.</span></p> -->
-        </div>
-
-      </div>
-
-      <div class="row" data-equalizer>
-        <div class="medium-5 columns wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="1.2s"  data-wow-offset="30" data-equalizer-watch>
-          <img src="img/desk.jpg" alt="" />
-        </div>
-
-        <div class="medium-7 columns wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="1.2s"  data-wow-offset="30" data-equalizer-watch>
-          <div class="content-text">
-            <p>Marcus was born and raised on the coast of southern Maine (a few hours north of Boston, Massachusettes).</p><br>
-            <p>Everyday he explored, whether through the pages of books or the vast forests around him.</p><br>
-            <p>He spent Maine's harsh winters testing the limits of icy ponds. During the summers he explored rocky beaches, swam in the cold waves of the atlantic, and caught crabs in shallow tidal pools. He learned adventure and discovery was the key ingredient to understanding how the world works.</p><br>
-            <p>His desire to understand the world led him to The Gallatin School of Individualized Study at New York University where he studied interesections between, business, economics, technology, psychology, and innovation.</p><br>
-            <p>He became an entrepreneur to understand how the world connects outside academia.</p><br>
-            <p>He dove into understanding the intersection between technology and innovation. Writing code in web development gave him the power to build experiences and turn ideas into products people value.</p><br>
-            <p>Today he is a freelance full-stack developer and startup entrepreneur driven to make the world better.</p>
-          </div>
-
-        </div>
-
-        <div class="medium-12 text-center columns wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s"  data-wow-offset="30">
-          <!-- <a class="cv_btn" title="" href="#">download resume</a> -->
-        </div>
-
-      </div>
-
-    </section>
-    <!-- end section #about -->
-
-    <!-- start section #education -->
-    <section id="education">
-
-      <div class="row bot-70">
-        <div class="medium-5 columns">
-          <h2>My <strong>EDUCATION</strong></h2>
-            <p>Strands of interdisciplinary wisdom</p>
-        </div>
-        <div class="medium-1 columns">
-          <i class="icon kurr-book-read-streamline big"></i>
-        </div>
-        <div class="medium-6 columns">
-          <p>I enjoy seeing problems from many perspectives.<br>
-          </p>
-        </div>
-      </div>
-
-      <!-- start education box -->
-      <div class="row education wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="1.2s"  data-wow-offset="30" data-equalizer>
-        <div class="medium-2 columns">
-          <div class="date" data-equalizer-watch>
-            <h5>June <span>2015</span></h5>
-          </div>
-        </div>
-        <div class="medium-10 columns" data-equalizer-watch>
-          <h3>Codepath</h3>
-          <p>Based in San Francisco, Codepath is the premier iphone development course for professional developers. I used the Swift programming language to build iphone applications.</p>
-        </div>
-      </div>
-      <!-- end education box -->
-
-      <!-- start education box -->
-      <div class="row education education wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="1.2s"  data-wow-offset="30" data-equalizer>
-        <div class="medium-2 columns">
-          <div class="date" data-equalizer-watch>
-            <h5>May <span>2009</span></h5>
-          </div>
-        </div>
-        <div class="medium-10 columns" data-equalizer-watch>
-          <h3>M.A., New York University </h3>
-          <p>Behavioral Economics and Disruptive Innovation; I studied how existing mental models in economics and business effect entrepreneurial innovation.</p>
-        </div>
-      </div>
-      <!-- end education box -->
-
-      <!-- start education box -->
-      <div class="row education wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="1.2s"  data-wow-offset="30" data-equalizer>
-        <div class="medium-2 columns">
-          <div class="date" data-equalizer-watch>
-            <h5>May <span>2007</span></h5>
-          </div>
-        </div>
-        <div class="medium-10 columns" data-equalizer-watch>
-          <h3>B.A., New York University</h3>
-          <p>My studies at the Gallatin School of Individualized Study spanned economics, accounting, management, philosophy, classics, literature, writing, philosophy, and real estate. I sought a broad academic understanding of how the world worked to better make sense of my entrepreneurial pursuits.</p>
-        </div>
-      </div>
-      <!-- end education box -->
-
-    <div class="bot-70"></div>
-
-    <div class="row">
-
-      <div class="medium-12 text-center">
-        <h3 class="bot-70">My <strong>INTERESTS</strong></h3>
-      </div>
-
-      <div id="interests" class="owl-carousel>">
-
-        <!-- start box -->
-
-          <div class="box">
-            <i class="icon kurr-design-pencil-rule-streamline big"></i>
-            <h5>Entrepreneurship</h5>
-          </div>
-
-        <!-- end box -->
-
-        <!-- start box -->
-
-          <div class="box">
-            <i class="icon kurr-like-love-streamline big"></i>
-            <h5>User Experience</h5>
-          </div>
-
-        <!-- stendart box -->
-
-        <!-- start box -->
-
-          <div class="box">
-            <i class="icon kurr-settings-streamline-1 big"></i>
-            <h5>Web Development</h5>
-          </div>
-
-        <!-- end box -->
-
-        <!-- start box -->
-
-          <div class="box">
-            <i class="icon kurr-painting-pallet-streamline big"></i>
-            <h5>Contemporary Ballet</h5>
-          </div>
-
-        <!-- stendart box -->
-
-        <!-- start box -->
-
-          <div class="box">
-            <i class="icon kurr-chef-food-restaurant-streamline big"></i>
-            <h5>French Toast</h5>
-          </div>
-
-        <!-- end box -->
-
-        <!-- start box -->
-
-          <div class="box">
-            <i class="icon kurr-earth-globe-streamline big"></i>
-            <h5>Working Out</h5>
-          </div>
-
-        <!-- end box -->
-
-      </div>
-
-    </div>
-
-    </section>
-    <!-- end section #education -->
-
-    <!-- start section testimonials -->
-    <section id="testimonials">
-      <div class="bg_overlay"></div>
-      <div class="row">
-    <div class="large-12 medium-8 medium-centered columns">
-
-      <!-- start testimonial coarousel -->
-      <div id="testimonial" class="owl-carousel text-centered">
-
-        <!-- start slide -->
-        <div>
-          <div class="large-9 large-centered medium-12 medium-centered columns">
-            <div class="large-12 medium-11 columns">
-              <h3 class="white semi-bold">Marcus is a thoughtful collaborator—a philosopher in developer's shoes. He strives to understand the undercurrents of what he makes, a key component to creating things full of meaning. Working with him is a joy.</h3>
-              <h4 class="white bordered">Joey Cofone - Founder, Designer Baron Fig -</h4>
+      <header class="container header" id="home">
+        <section class="hero-box">
+          <h1 class="title">Save Time Investing</h1>
+          <p class="description">VentureMark makes it easy for angel investors to communicate, share, and invest in great opportunities in Southeast Asia. Our platform is secure and confidential.</p>
+          <div class="columns is-hidden-mobile">
+            <div class="column">
+              <div class="money-hand icon"><img class="hero-icon" src="./img/money-hand.png" alt=""></div>
+              <p class="icon-title">Investors</p>
+            </div>
+            <div class="column">
+              <div class="code icon"><img class="hero-icon" src="./img/code.svg" alt=""></div>
+              <p class="icon-title">VentureMark</p>
+            </div>
+            <div class="column">
+              <div class="light-bulb icon"><img class="hero-icon" src="./img/light-bulb.svg" alt=""></div>
+              <p class="icon-title">Opportunities</p>
             </div>
           </div>
-        </div>
-        <!-- end slide -->
-
-        <!-- start slide -->
-        <div>
-          <div class="large-9 large-centered medium-12 medium-centered columns">
-            <div class="large-12 medium-11 columns">
-              <h3 class="white semi-bold">Working with Marcus is always a pleasure as he is an engineer who builds things from first principles when they are truly needed, and doesn’t get carried away with the current fads. Plus, he’s just a genuinely nice guy.</h3>
-              <h4 class="white bordered">Teddy Wyly - Apple Software Engineer -</h4>
-            </div>
+          <div class="button">
+            <a class="call-to-action" href="./signup.html">Join Waitlist</a>
           </div>
-        </div>
-        <!-- end slide -->
-
-        <!-- start slide -->
-        <div>
-          <div class="large-9 large-centered medium-12 medium-centered columns">
-            <div class="large-12 medium-11 columns">
-              <h3 class="white semi-bold">Marcus is Awesome.</h3>
-              <h4 class="white bordered">Frank Saulter - CEO, Creative Fiction -</h4>
-            </div>
-          </div>
-        </div>
-        <!-- end slide -->
-
-
-
-      </div>
-      <!-- end#testimonial carousel -->
-
-    </div>
-  </div>
-
-    </section>
-    <!-- end section testimonials -->
-
-    <!-- start section #skills -->
-    <section id="skills">
-
-      <div class="row bot-70">
-
-          <div class="medium-5 columns">
-            <h2>My <strong>SKILLS</strong></h2>
-            <p>Frontend Developer with Full-Stack experience</p>
-          </div>
-          <div class="medium-1 columns">
-            <i class="icon kurr-dashboard-speed-streamline big"></i>
-          </div>
-          <div class="medium-6 columns">
-            <p>Let's build something awesome.</p>
-          </div>
-
-      </div>
-
-      <div class="row wow fadeInUp" data-wow-delay="0s" data-wow-duration="1s"  data-wow-offset="30">
-
-
-          <div class="medium-3 columns text-center counter">
-            <span class="chart" data-percent="100">
-              <span class="percent"></span>
-            </span>
-            <h4 class="chart-title">Html</h4>
-          </div>
-
-          <div class="medium-3 columns text-center counter">
-            <span class="chart" data-percent="100">
-              <span class="percent"></span>
-            </span>
-            <h4 class="chart-title">Css</h4>
-          </div>
-
-          <div class="medium-3 columns text-center counter">
-            <span class="chart" data-percent="80">
-              <span class="percent"></span>
-            </span>
-            <h4 class="chart-title">Jquery</h4>
-          </div>
-
-          <div class="medium-3 columns text-center counter">
-            <span class="chart" data-percent="80">
-              <span class="percent"></span>
-            </span>
-            <h4 class="chart-title">Javascript</h4>
-          </div>
-
-          <div class="medium-3 columns text-center counter">
-            <span class="chart" data-percent="60">
-              <span class="percent"></span>
-            </span>
-            <h4 class="chart-title">Python</h4>
-          </div>
-
-          <div class="medium-3 columns text-center counter">
-            <span class="chart" data-percent="60">
-              <span class="percent"></span>
-            </span>
-            <h4 class="chart-title">Golang</h4>
-          </div>
-
-          <div class="medium-3 columns text-center counter">
-            <span class="chart" data-percent="80">
-              <span class="percent"></span>
-            </span>
-            <h4 class="chart-title">Swift</h4>
-          </div>
-
-          <div class="medium-3 columns text-center counter">
-            <span class="chart" data-percent="50">
-              <span class="percent"></span>
-            </span>
-            <h4 class="chart-title">PHP</h4>
-          </div>
-
-
-      </div>
-    </section>
-    <!-- end section #skills -->
-
-    <!-- start section #portfolio -->
-    <section id="portfolio">
-
-       <div class="row bot-70">
-
-          <div class="medium-5 columns">
-            <h2>My <strong>PORTFOLIO</strong></h2>
-            <p>Recent work and side projects </p>
-          </div>
-          <div class="medium-1 columns">
-            <i class="icon kurr-streamline-suitcase-travel big"></i>
-          </div>
-          <div class="medium-6 columns">
-            <p>I aim to blur the line between what I enjoy and what I get paid to do.</p>
-          </div>
-
-      </div>
-
-      <div class="row">
-
-      <div class="medium-4 columns work">
-        <div class="portfolio-img">
-          <div class="portfolio-hover">
-            <a class="popup-link" href="img/portfolio/simplywine-screen.jpg" title="My Simply Wine"><i class="icon kurr-zoom-in-1"></i></a>
-          </div>
-          <img src="img/portfolio/simplywine-thumbnail.jpg" alt="My Simply Wine">
-        </div>
-        <div class="project-info">
-          <h3>My Simply Wine</h3>
-          <p>Web Development</p>
-        </div>
-      </div>
-
-      <div class="medium-4 columns work">
-        <div class="portfolio-img">
-          <div class="portfolio-hover">
-            <a class="popup-link" href="img/portfolio/haiku-screen.jpg" title="The Global Haiku Project"><i class="icon kurr-zoom-in-1"></i></a>
-          </div>
-          <img src="img/portfolio/haiku-thumbnail.jpg" alt="The Global Haiku Project">
-        </div>
-        <div class="project-info">
-          <h3>Global Haiku Project</h3>
-          <p>Full Stack Development</p>
-        </div>
-      </div>
-
-      <div class="medium-4 columns work">
-        <div class="portfolio-img">
-          <div class="portfolio-hover">
-            <a class="popup-link" href="img/portfolio/baronfig-screen.jpg" title="Baron Fig"><i class="icon kurr-zoom-in-1"></i></a>
-          </div>
-          <img src="img/portfolio/baronfig-screen.jpg" alt="Baron Fig">
-        </div>
-        <div class="project-info">
-          <h3>Baron Fig</h3>
-          <p>Web Development - Ecommerce</p>
-        </div>
-      </div>
-
-      <div class="medium-4 columns work">
-        <div class="portfolio-img">
-          <div class="portfolio-hover">
-            <a class="popup-link" href="img/portfolio/positivepub-screen.jpg" title="The Positive Pub"><i class="icon kurr-zoom-in-1"></i></a>
-          </div>
-          <img src="img/portfolio/positivepub-thumbnail.jpg" alt="The Positive Pub">
-        </div>
-        <div class="project-info">
-          <h3>The Positive Pub</h3>
-          <p>Full Stack Developer</p>
-        </div>
-      </div>
-
-      <div class="medium-4 columns work">
-        <div class="portfolio-img">
-          <div class="portfolio-hover">
-            <a class="popup-link" href="img/portfolio/wurkhappy-screen.jpg" title="Wurk Happy"><i class="icon kurr-zoom-in-1"></i></a>
-          </div>
-          <img src="img/portfolio/wurkhappy-thumbnail.png" alt="Wurk Happy">
-        </div>
-        <div class="project-info">
-          <h3>Wurk Happy</h3>
-          <p>Full Stack Developer</p>
-        </div>
-      </div>
-
-      <div class="medium-4 columns work">
-        <div class="portfolio-img">
-          <div class="portfolio-hover">
-            <a class="popup-link" href="img/portfolio/bayeslist-screen.jpg" title="Bayes' List"><i class="icon kurr-zoom-in-1"></i></a>
-          </div>
-          <img src="img/portfolio/bayeslist-screen.jpg" alt="Bayes' List">
-        </div>
-        <div class="project-info">
-          <h3>Baye's List</h3>
-          <p>Frontend Developer</p>
-        </div>
-      </div>
-
-      <div class="medium-4 columns work">
-        <div class="portfolio-img">
-          <div class="portfolio-hover">
-            <a class="popup-link" href="img/portfolio/whlist-screen.jpg" title="Zip Code Based Freelance Jobs List"><i class="icon kurr-zoom-in-1"></i></a>
-          </div>
-          <img src="img/portfolio/whlist-screen.jpg" alt="Zip Code Based Freelance Jobs List">
-        </div>
-        <div class="project-info">
-          <h3>WH List</h3>
-          <p>Full Stack Developer</p>
-        </div>
-      </div>
-
-      <div class="medium-4 columns work">
-        <div class="portfolio-img">
-          <div class="portfolio-hover">
-            <a class="popup-link" href="img/portfolio/pph-screen.jpg" title="People Per Hour"><i class="icon kurr-zoom-in-1"></i></a>
-          </div>
-          <img src="img/portfolio/pph-thumbnail.jpg" alt="People Per Hour">
-        </div>
-        <div class="project-info">
-          <h3>People Per Hour</h3>
-          <p>Frontend Development - Blog</p>
-        </div>
-      </div>
-
+        </section>
+      </header>
     </div>
 
-    </section>
-    <!-- end section #portfolio -->
-
-    <!-- start section #quote -->
-    <section id="quote">
-      <div class="bg_overlay"></div>
-      <div class="row text-center">
-        <h2 class="white">“All men dream: but not equally. Those who dream by night in the dusty recesses of their minds wake in the day to find that it was vanity: but the dreamers of the day are dangerous men, for they may act their dreams with open eyes, to make it possible.”</h2>
-        <h3 class="white">- T.E. Lawrence -</h3>
-      </div>
-    </section>
-    <!-- ens section #quote -->
-
-    <!-- start section #experience -->
-    <section id="experience" >
-
-      <div class="row bot-70">
-
-          <div class="medium-5 columns">
-            <h2>My <strong>EXPERIENCE</strong></h2>
-            <p>A timeline of activities</p>
+      <section class="container investors" id="Investors">
+        <h3 class="title">Our Investors</h3>
+        <div class="columns first-row">
+          <div class="column investor-card">
+            <img src="./img/dershing.svg" alt="" class="investor-image">
+            <h3 class="investor-name">Der Shing Lim</h3>
+            <p class="investor-company">Investor Central</p>
           </div>
-          <div class="medium-1 columns">
-            <i class="icon kurr-clock-streamline-time big"></i>
+          <div class="column investor-card">
+            <img src="./img/shuyin.svg" alt="" class="investor-image">
+            <h3 class="investor-name">Shuyin Tang</h3>
+            <p class="investor-company">Patamar Capital</p>
           </div>
-          <div class="medium-6 columns">
-            <p>Take a deep breath.<br>Below is a track record of my entrepreneurial and work experience.</p>
+          <div class="column investor-card">
+            <img src="./img/paul.svg" alt="" class="investor-image">
+            <h3 class="investor-name">Paul Santos</h3>
+            <p class="investor-company">Wavemaker</p>
           </div>
-
-      </div>
-
-      <div id="cd-timeline" class="cd-container">
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-camera-photo-polaroid-streamline"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Founder @ CoderSchool</h2>
-            <p>International coding school for profressional engineers. 8 week in person classes across iOS, Android, Node.js</p>
-            <span class="cd-date">From November 2015 to December 2016</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-camera-photo-polaroid-streamline"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>CodePath</h2>
-            <p>Consulting for fortune 15 tech companies in San Francisco in education technology</p>
-            <span class="cd-date">From June 2015 to November 2015</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-design-pencil-rule-streamline"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Freelance Web Development</h2>
-            <p>Started with frontend web development. Now full-stack development. Iphone development coming soon.</p>
-            <span class="cd-date">September 2011 to present</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-camera-photo-polaroid-streamline"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Founded Wurk Happy</h2>
-            <p>Wurk Happy</p>
-            <span class="cd-date">From March 2011 to August 2014</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-design-pencil-rule-streamline"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>NYU Masters</h2>
-            <span class="cd-date">Jan 2008 - May 2009</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-design-pencil-rule-streamline"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Graduated from NYU Undergrad</h2>
-            <span class="cd-date">From Jan 2007</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-design-pencil-rule-streamline"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Founded Hepcat Music Group</h2>
-            <p>Managed internet radio station and produced jazz events in williamsburg, NYC.</p>
-            <span class="cd-date">January 2007 - October 2008</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-design-pencil-rule-streamline"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Founded Saulter & Ellison</h2>
-            <p>Independently worked with real estate developer Anthony Leichter to source, analyze, and initiate commercial real estate development. </p>
-            <span class="cd-date">June 2005 - August 2010</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-settings-streamline-1"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Deloitte</h2>
-            <p>Summer internship in the Strategy & Operations group</p>
-            <span class="cd-date">Summers 2005 and 2006</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-camera-streamline-video"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Rocawear</h2>
-            <p>Budget Coordinator of Marketing</p>
-            <span class="cd-date">October 2004 to April 2005</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-settings-streamline-1"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Received Unilever Legacy of Leadership Award</h2>
-            <p>Given to a the Jackie Robinson Foundation scholarship student who exhibits outstanding leadership qualities and makes a positive impact on lives, issues or society at large during the previous year. Link: http://bit.ly/1FBeoE8</p>
-            <span class="cd-date">March 2006</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-settings-streamline-1"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Student Relief Organization</h2>
-            <p>Director; The Sutdent Relief Organization focused on closing the highschool achievement gap through tutoring, professional skills workshops, and mentoring</p>
-            <span class="cd-date">April 2005 to December 2006</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img">
-            <i class="icon kurr-camera-streamline-video"></i>
-          </div> <!-- cd-timeline-img -->
-
-          <div class="cd-timeline-content">
-            <h2>Began school at NYU</h2>
-            <span class="cd-date">2003</span>
-          </div> <!-- cd-timeline-content -->
-        </div> <!-- cd-timeline-block -->
-
-
-
-    </div> <!-- cd-timeline -->
-
-    </section>
-    <!-- end section #experience -->
-
-    <!-- start section#social -->
-    <section id="social">
-      <div class="bg_overlay"></div>
-
-      <div class="row text-center">
-        <h3 class="white bot-70">My <strong>SOCIAL LINKS</strong></h3>
-
-      <!-- start social links -->
-        <a class="social" title="Marcus Twitter" href="https://twitter.com/marcojelli"><i class="icon kurr-twitter"></i></a>
-        <a class="social" title="Marcus LinkedIn" href="https://www.linkedin.com/in/marcusellison"><i class="icon kurr-linkedin"></i></a>
-        <a class="social" title="Marcus Github" href="https://github.com/marcusellison"><i class="icon kurr-github"></i></a>
-        <a class="social" title="Marcus Instagram" href="https://instagram.com/sixwordsofpoetry/"><i class="icon kurr-social-instagram"></i></a>
-        <a class="social" title="Marcus Facebook" href="https://www.facebook.com/marcusellison"><i class="icon kurr-facebook"></i></a>
-      <!-- end social links -->
-
-    </div>
-
-    </section>
-    <!-- end section #social -->
-
-    <!-- start section #contact -->
-    <section id="contact">
-
-      <div class="row bot-70">
-
-          <div class="medium-5 columns">
-            <h2>Contact <strong>ME</strong></h2>
-            <p>Say hello.</p>
+          <div class="column investor-card">
+            <img src="./img/dmitry.svg" alt="" class="investor-image">
+            <h3 class="investor-name">Dmitry Levit</h3>
+            <p class="investor-company">Digital Media VC</p>
           </div>
-          <div class="medium-1 columns">
-            <i class="icon kurr-pen-streamline-3 big"></i>
-          </div>
-          <div class="medium-6 columns">
-            <p>I love meeting new folks. Just ping me.</p>
-          </div>
-
-      </div>
-
-      <div class="row bot-70 wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="1.2s"  data-wow-offset="30">
-
-        <!-- start link-box -->
-        <div class="large-4 medium-4 columns link-box " >
-          <div class="about">
-            <i class="icon icon kurr-map-pin-streamline"></i>
-            <h3>Address</h3>
-            <p>975 Valencia Street Apt 2.<br />San Francisco, CA 94110</p>
+          <div class="column investor-card">
+            <img src="./img/david.svg" alt="" class="investor-image">
+            <h3 class="investor-name">David Gowdey</h3>
+            <p class="investor-company">Jungle Ventures</p>
           </div>
         </div>
-        <!-- end link-box -->
-
-        <!-- start link-box -->
-        <div class="large-4 medium-4 columns link-box">
-          <div class="about">
-            <i class="icon kurr-email-mail-streamline"></i>
-            <h3>Email</h3>
-            <p>marcus.ellison@gmail.com</p>
+        <div class="columns second-row">
+          <div class="column investor-card">
+            <img src="./img/yinglan.svg" alt="" class="investor-image">
+            <h3 class="investor-name">Yinglan Tan</h3>
+            <p class="investor-company">Insignia Ventures</p>
+          </div>
+          <div class="column investor-card">
+            <img src="./img/shuyin.svg" alt="" class="investor-image">
+            <h3 class="investor-name">Shuyin Tang</h3>
+            <p class="investor-company">Patamar Capital</p>
+          </div>
+          <div class="column investor-card">
+            <img src="./img/michael.svg" alt="" class="investor-image">
+            <h3 class="investor-name">Michael Blakey</h3>
+            <p class="investor-company">Cocoon Capital</p>
+          </div>
+          <div class="column investor-card">
+            <img src="./img/dmitry.svg" alt="" class="investor-image">
+            <h3 class="investor-name">Dmitry Levit</h3>
+            <p class="investor-company">Digital Media VC</p>
+          </div>
+          <div class="column investor-card">
+            <img src="./img/david.svg" alt="" class="investor-image">
+            <h3 class="investor-name">David Gowdey</h3>
+            <p class="investor-company">Jungle Ventures</p>
           </div>
         </div>
-        <!-- end link-box -->
-
-        <!-- start link-box -->
-        <div class="large-4 medium-4 columns link-box">
-        <div class="about">
-            <i class="icon kurr-iphone-streamline"></i>
-            <h3>Phone</h3>
-            <p>(917) 972 3943</p>
+      </section>
+      <section class="product" id="product">
+        <h3 class="title">Our Platform</h3>
+        <img class="product-image" src="./img/product.svg" alt="VentureMark Platform">
+      </section>
+      <section class="container" id="newsletter">
+        <div class="newsletter">
+          <h3 class="title">Signup for our free newsletter</h3>
+          <p class="description">Stay a step ahead on technology, venture capital, and startup trends in Southeast Asia</p>
+          <div class="button">
+            <a class="call-to-action" href="" >Sign Up For Newsletter</a>
           </div>
         </div>
-        <!-- end link-box -->
-
-      </div>
-
-
-      <div class="row wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="1.2s"  data-wow-offset="30">
-
-        <!-- start message validator -->
-        <div id="message"></div>
-        <!-- end message validator -->
-        <!-- start contact form -->
-
-        <form method="post" action="php/contact.php" name="contactform" id="contactform">
-          <div class="large-6 columns">
-            <input type="text" name="name" placeholder="Name" id="name" />
-          </div>
-          <div class="large-6 columns">
-            <input type="text" name="email" placeholder="Email" id="email" />
-          </div>
-          <div class="large-12 columns">
-            <textarea placeholder="Message" name="comments" id="comments"></textarea>
-          </div>
-          <div class="large-12 text-center columns">
-            <button type="submit" class="submit-button" id="submit" name="submit">Send</button>
-          </div>
-        </form>
-      <!-- end contact form -->
-
-      </div>
-
-    </section>
-    <!-- end section #contact -->
-
-    <!-- start footer -->
-    <footer>
-      <div class="row text-center">
-        <!-- <h5 class="text-center">Marcus Ellison - 2015 © mordorthemes. All rights reserved.</h5> -->
-      </div>
-    </footer>
-    <!-- end footer -->
-
-    </div>
-    <!-- end wrapper -->
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/foundation/foundation.equalizer.js"></script>
-    <script src="js/pushy_left.js"></script>
-    <script type="text/javascript" src="js/jquery.backstretch.js"></script>
-    <script src="js/easypiechart.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/magnific-popup.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script src="js/custom.js"></script>
-
-    <!-- Start Style Switcher to remove -->
-    <script src="js/styleswitcher.js"></script>
-    <script src="js/jquery-cookie.js"></script>
-    <!-- End Style Switcher -->
-
-    <script>
-      $(document).foundation();
-    </script>
-
-    <script>
-      new WOW().init();
-    </script>
-  </body>
-
+      </section>
+      <footer class="footer">
+        <section class="container">
+          <strong>VentureMark</strong>
+          <br>
+          <small>&copy; VentureMark 2018</small>
+        </section>
+      </footer>
+  </main>
+</body>
 </html>

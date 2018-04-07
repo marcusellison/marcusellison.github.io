@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>VentureMark</title>
+  <link rel="stylesheet" href="/vendors/bulma/css/bulma.css">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <main class="wrapper investor-profile">
+
+    <!-- Navigation -->
+    <nav class="navbar is-white" role="navigation" aria-label="main navigation">
+
+      <div class="container">
+
+        <div class="navbar-brand">
+          <a href="" class="navbar-item navigation-title">
+            <h1 class="logo">VentureMark</h1>
+            <span class="slogan">A global platform for independent investors</span>
+          </a>
+
+          <!-- Mobile Navigation -->
+          <div class="navbar-burger">
+            <span>About</span>
+            <span>Our Startups</span>
+            <span>Our Investors</span>
+            <span>Inbox</span>
+            <span>George</span>
+          </div>
+          <!-- End Mobile Navigation -->
+
+        </div>
+
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a href="" class="navbar-item">Our Startups</a>
+            <a href="" class="navbar-item">Our Investors</a>
+            <hr class="navbar-divider">
+            <a href="" class="navbar-item">Inbox</a>
+            <a href="" class="navbar-item link-current">
+              <figure class="image is-32x32 nav-profile-picture">
+                <img src="./img/dershing.svg" alt="">
+              </figure>
+              Der Shing
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation -->
+
+    <header class="header" id="header">
+      <section class="container">
+        <div class="welcome">
+          <figure class="image is-48x48">
+            <img src="./img/dershing.svg" alt="" class="profile-icon-medium">
+          </figure>
+          <h1 class="welcome-text">Welcome back,<br><span class="name">Der Shing</span></h1>
+          <div class="button button-white deal-button"><a href="./create-deal.html">Create A Deal</a></div>
+        </div>
+        <div class="level">
+          <div class="level-left secondary-navigation">
+            <li class="level-item link-current"><a href="">Overview</a></li>
+            <li class="level-item"><a href="">Settings</a></li>
+          </div>
+          <div class="level-right profile-privacy-content">
+            <span class="level-item">Investor profile set to </span> <span class="profile-privacy-insert">Private</span> <img src="./img/switch-on.svg" alt="" class="profile-privacy-switch">
+          </div>
+        </div>
+      </section>
+
+    </header>
+    <section class="container my-deals populated">
+      <h3 class="title" >My Deals</h3>
+      <div class="box">
+        <table class="table is-fullwidth startup-deal">
+          <thead>
+            <tr>
+              <th>Startup</th>
+              <th>Location</th>
+              <th>Industry</th>
+              <th>Status</th>
+              <th>Funding</th>
+              <th>Role</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Gridcomm</td>
+              <td>Singapore</td>
+              <td>Smart City</td>
+              <td><strong>Fundraising</strong></td>
+              <td> --- </td>
+              <td><strong>Syndicate Lead</strong></td>
+              <td><div class="button button-white"><a href="./investor-snapshot-syndicating.html">View</a></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="box">
+        <table class="table is-fullwidth startup-deal">
+          <thead>
+            <tr>
+              <th>Startup</th>
+              <th>Location</th>
+              <th>Industry</th>
+              <th>Status</th>
+              <th>Funding</th>
+              <th>Role</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>imoney</td>
+              <td>Kuala Lumpur</td>
+              <td>Finance</td>
+              <td>Following</td>
+              <td> --- </td>
+              <td>Co-Investor</td>
+              <td><a class="button button-white" href="">View</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- <div class="box">
+        <figure class="image is-96x96">
+          <img src="./img/money-hand-medium.svg" alt="" class="money-hand">
+        </figure>
+        <h3>Those are some nice looking deals.</h3>
+        <p class="description">Know what startup you want to invest in? Create another deal!</p>
+        <div class="button button-white"><a href="./create-deal.html">Create Another Deal</a></div>
+
+      </div> -->
+    </section>
+
+    <footer class="footer">
+      <section class="container">
+        <strong>VentureMark</strong>
+        <br>
+        <small>&copy; VentureMark 2018</small>
+      </section>
+    </footer>
+
+  </main>
+</body>
+</html>
