@@ -6083,6 +6083,9 @@ a {
 .table td {
   font-size: .875rem; }
 
+.green-text {
+  color: #029c7d; }
+
 .button {
   background: #24193e;
   border: none;
@@ -6614,7 +6617,7 @@ a {
 .investor-profile .populated .box {
   border-radius: 5px;
   padding-bottom: 0;
-  border: 1px solid #24193e;
+  border: 1px solid #e0e0e0;
   padding-top: 1.5rem; }
 
 .my-deals.populated .column {
@@ -6623,12 +6626,15 @@ a {
 .my-deals.populated .title {
   color: #24193e;
   font-size: 18px;
-  margin-top: 55px;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1px;
-  margin-bottom: 23px;
-  text-align: left; }
+  display: inline-block;
+  margin-right: 4rem;
+  padding-bottom: 1.5rem;
+  margin-top: 3rem; }
+.my-deals.populated .title.active {
+  border-bottom: 4px solid #24193e; }
 .my-deals.populated .button {
   color: white;
   margin: auto;
@@ -6652,7 +6658,7 @@ a {
 .my-deals.populated .light {
   font-weight: lighter; }
 .my-deals.populated .underline {
-  font-style: underline; }
+  text-decoration: underline; }
 .my-deals.populated .startup-deal-text, .my-deals.populated .startup-deal-label {
   text-align: center; }
 .my-deals.populated .startup-deal-label {
