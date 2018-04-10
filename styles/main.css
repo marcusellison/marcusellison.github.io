@@ -6105,6 +6105,10 @@ a {
   text-align: center;
   font-size: 2.25rem; }
 
+.image {
+  margin: auto;
+  margin-bottom: 1rem; }
+
 .box {
   border-radius: 3px;
   box-shadow: none;
@@ -6123,6 +6127,9 @@ a {
 .navbar.is-white .navbar-end > .navbar-item {
   color: #24193e; }
 
+.navbar.is-white .navbar-brand > a.navbar-item.navigation-title:hover {
+  background-color: transparent; }
+
 .navbar-item .button {
   color: white; }
 
@@ -6138,7 +6145,7 @@ a {
 
 .lock-icon {
   margin-right: 5px;
-  margin-bottom: 7px; }
+  margin-bottom: 25px; }
 
 .navbar-menu .navbar-item {
   color: #24193e;
@@ -6153,51 +6160,6 @@ a {
   font-weight: 200;
   margin-top: .25rem;
   margin-left: .625rem; }
-
-.header {
-  color: white; }
-
-.secondary-navigation {
-  margin: 0;
-  margin-bottom: 0; }
-  .secondary-navigation a {
-    color: white;
-    font-size: .875rem;
-    text-transform: uppercase;
-    opacity: .7;
-    padding: 1rem;
-    font-weight: 500; }
-  .secondary-navigation .level-item.link-current {
-    border-bottom: 4px solid white; }
-    .secondary-navigation .level-item.link-current a {
-      top: 2px;
-      position: relative;
-      opacity: 1; }
-
-.profile-privacy-content .level-item {
-  opacity: .7;
-  display: inline-block; }
-
-.profile-privacy-insert {
-  display: inline-block;
-  opacity: 1;
-  margin-left: -6px;
-  margin-right: .5rem; }
-
-.welcome .image, .welcome .welcome-text {
-  display: inline-block; }
-.welcome .welcome-text {
-  margin-top: 2.25rem;
-  margin-bottom: 2rem;
-  font-weight: bold;
-  font-size: .75rem; }
-.welcome .name {
-  font-size: 1.875rem;
-  font-weight: normal; }
-
-.settings {
-  margin-top: 4rem;
-  margin-bottom: 4rem; }
 
 .navigation {
   display: block;
@@ -6247,6 +6209,61 @@ a {
     margin-left: 2.125rem;
     margin-top: 1.5rem; }
 
+.footer {
+  padding: 3rem 0 6rem;
+  border-top: 1px solid #e0e0e0;
+  background: white; }
+
+.header {
+  color: white; }
+
+.secondary-navigation {
+  margin: 0;
+  margin-bottom: 0; }
+  .secondary-navigation a {
+    color: white;
+    font-size: .875rem;
+    text-transform: uppercase;
+    opacity: .7;
+    padding: 1rem;
+    font-weight: 500; }
+  .secondary-navigation .level-item.link-current {
+    border-bottom: 4px solid white; }
+    .secondary-navigation .level-item.link-current a {
+      top: 2px;
+      position: relative;
+      opacity: 1; }
+
+.profile-privacy-content .level-item {
+  opacity: .7;
+  display: inline-block; }
+
+.profile-privacy-insert {
+  display: inline-block;
+  opacity: 1;
+  margin-left: -6px;
+  margin-right: .5rem; }
+
+.welcome .image, .welcome .welcome-text {
+  display: inline-block; }
+.welcome .welcome-text {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: .75rem;
+  position: relative;
+  top: -14px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  margin-top: 3.125rem; }
+.welcome .name {
+  font-size: 1.875rem;
+  font-weight: normal;
+  text-transform: capitalize; }
+
+.settings {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
 .hero-image {
   background-image: url(../img/landing-background.svg);
   background-size: 100%;
@@ -6294,6 +6311,18 @@ a {
     font-weight: normal;
     padding: 2rem; }
 
+.investor-card {
+  background: #ffd000;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+  .investor-card .investor-name, .investor-card .investor-company {
+    text-align: center;
+    font-size: 1.25rem; }
+  .investor-card .investor-name {
+    font-weight: bold; }
+  .investor-card .investor-company {
+    font-weight: lighter; }
+
 .investors .title {
   margin: 5.625rem auto; }
 .investors .first-row .investor-card:nth-child(1n) {
@@ -6316,19 +6345,6 @@ a {
   background: rgba(255, 208, 0, 0.8); }
 .investors .second-row .investor-card:nth-child(5n) {
   background: rgba(255, 208, 0, 0.3); }
-.investors .investor-card {
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
-.investors .investor-name, .investors .investor-company {
-  text-align: center;
-  font-size: 1.25rem; }
-.investors .investor-name {
-  font-weight: bold; }
-.investors .investor-company {
-  font-weight: lighter; }
-.investors .investor-image {
-  margin: 10px auto;
-  display: flex; }
 
 .product {
   margin: 5.625rem auto;
@@ -6362,10 +6378,6 @@ a {
     margin-bottom: 2rem;
     font-weight: lighter; }
 
-.footer {
-  padding: 3rem 0 6rem;
-  border-top: 1px solid #979797; }
-
 .signup .header {
   margin-bottom: 10rem; }
 .signup .input {
@@ -6374,7 +6386,7 @@ a {
   box-shadow: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   color: rgba(0, 0, 0, 0.2); }
-.signup .navigation, .signup .footer {
+.signup .navigation {
   background: white; }
 .signup .title {
   font-weight: lighter;
@@ -6406,6 +6418,11 @@ a {
     font-size: .875rem;
     font-weight: normal;
     padding: 15px 25px 15px 25px; }
+.signup .join-container {
+  padding: 30px;
+  padding-bottom: 80px; }
+  .signup .join-container .join {
+    background-color: #029c7d; }
 .signup .linkedin-button {
   text-transform: uppercase;
   font-weight: normal;
@@ -6425,8 +6442,6 @@ a {
     margin: .6rem;
     border: 1px solid #f2f2f2;
     background: white; }
-.signup .footer {
-  border-top: 1px solid #e0e0e0; }
 
 .signup.user-type .title {
   margin-bottom: 6rem; }
@@ -6448,8 +6463,11 @@ a {
 .signup.user-type .upload-photo-container-position {
   top: -100px;
   position: relative; }
-.signup.user-type .user-type-container {
-  height: 7rem; }
+.signup.user-type .column.user-type-container {
+  background: transparent;
+  padding: 0; }
+.signup.user-type .box:not(:last-child) {
+  margin-bottom: .8rem; }
 .signup.user-type .next-step .description {
   font-size: .875rem;
   font-weight: 500;
@@ -6597,29 +6615,11 @@ a {
   border-radius: 5px;
   padding-bottom: 0;
   border: 1px solid #24193e;
-  padding-top: 2.5rem; }
-.investor-profile .startup-deal th {
-  border-bottom: none;
-  text-transform: uppercase;
-  font-size: .75rem; }
-.investor-profile .startup-deal td:first-of-type {
-  font-weight: bold;
-  text-transform: uppercase;
-  Color: #029c7d; }
-.investor-profile .startup-deal .button {
-  margin-bottom: 0;
-  border: 1px solid #24193e;
-  position: relative;
-  top: -20px;
-  padding: 1.25rem;
-  font-weight: bold; }
-.investor-profile .deal-button {
-  float: right;
-  margin-top: 60px;
-  font-weight: 500;
-  border: 1px solid #24193e;
-  border-radius: 3px; }
+  padding-top: 1.5rem; }
 
+.my-deals.populated .column {
+  border-right: 1px solid #e0e0e0;
+  margin-bottom: 30px; }
 .my-deals.populated .title {
   color: #24193e;
   font-size: 18px;
@@ -6629,6 +6629,39 @@ a {
   letter-spacing: 1px;
   margin-bottom: 23px;
   text-align: left; }
+.my-deals.populated .button {
+  color: white;
+  margin: auto;
+  margin-top: 2.375rem; }
+.my-deals.populated .button-white {
+  color: #24193e;
+  padding: 1rem;
+  margin: 0;
+  margin-top: 1.5rem; }
+.my-deals.populated .description {
+  font-size: 1.625rem;
+  text-align: left;
+  margin-bottom: .625rem;
+  color: #24193e; }
+.my-deals.populated .explainer {
+  font-size: .875rem;
+  margin-bottom: 1.875rem;
+  color: black; }
+.my-deals.populated .bold {
+  font-weight: bold; }
+.my-deals.populated .light {
+  font-weight: lighter; }
+.my-deals.populated .underline {
+  font-style: underline; }
+.my-deals.populated .startup-deal-text, .my-deals.populated .startup-deal-label {
+  text-align: center; }
+.my-deals.populated .startup-deal-label {
+  color: #999999;
+  text-transform: uppercase;
+  font-size: .875rem; }
+.my-deals.populated .startup-deal-text {
+  color: black;
+  margin-bottom: 1.875rem; }
 
 .my-deals {
   margin-bottom: 3.5rem; }
@@ -6882,6 +6915,10 @@ a {
   font-size: 1.875rem;
   font-weight: normal;
   margin: 0 1rem; }
+
+.forgot-password-link {
+  display: block;
+  margin-bottom: 2rem; }
 
 @media screen and (max-width: 768px) {
   .title {
